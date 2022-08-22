@@ -249,65 +249,66 @@ h6,
 }
 
 
-/*** Section Title ***/
-.section-title::before {
+/*** Section Title (animación)***/
+/* .section-title::before {
     position: absolute;
     content: "";
-    width: 150px;
-    height: 5px;
+    width: 300px;
+    height: 10px;
     left: 0;
     bottom: 0;
-    background: var(--primary);
+    background: var(--dark);
     border-radius: 2px;
-}
+} */
 
-.section-title.text-center::before {
+/* .section-title.text-center::before {
     left: 50%;
     margin-left: -75px;
-}
+} */
 
-.section-title.section-title-sm::before {
+/* .section-title.section-title-sm::before {
     width: 90px;
     height: 3px;
-}
+} */
 
-.section-title::after {
+/* .section-title::after {
     position: absolute;
     content: "";
-    width: 6px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
     bottom: 0px;
-    background: #FFFFFF;
+    background: var(--primary);
+    border-radius: 50px;
     -webkit-animation: section-title-run 5s infinite linear;
     animation: section-title-run 5s infinite linear;
-}
+} */
 
-.section-title.section-title-sm::after {
+/* .section-title.section-title-sm::after {
     width: 4px;
     height: 3px;
-}
+} */
 
-.section-title.text-center::after {
+/* .section-title.text-center::after {
     -webkit-animation: section-title-run-center 5s infinite linear;
     animation: section-title-run-center 5s infinite linear;
-}
+} */
 
-.section-title.section-title-sm::after {
+/* .section-title.section-title-sm::after {
     -webkit-animation: section-title-run-sm 5s infinite linear;
     animation: section-title-run-sm 5s infinite linear;
-}
+} */
 
-@-webkit-keyframes section-title-run {
+/* @-webkit-keyframes section-title-run {
     0% {left: 0; } 50% { left : 145px; } 100% { left: 0; }
-}
+} */
 
-@-webkit-keyframes section-title-run-center {
+/* @-webkit-keyframes section-title-run-center {
     0% { left: 50%; margin-left: -75px; } 50% { left : 50%; margin-left: 45px; } 100% { left: 50%; margin-left: -75px; }
-}
+} */
 
-@-webkit-keyframes section-title-run-sm {
+/* @-webkit-keyframes section-title-run-sm {
     0% {left: 0; } 50% { left : 85px; } 100% { left: 0; }
-}
+} */
 
 
 /*** Service ***/
@@ -467,9 +468,13 @@ h6,
 .back-to-top {
     position: fixed;
     display: none;
+    height: 50px;
+    width: 55px;
     right: 45px;
     bottom: 45px;
     z-index: 99;
+    border-radius: 50px;
+    text-align: center;
 }
 
 .bg-header {
