@@ -513,6 +513,7 @@ h6,
     border: none;
     width: auto;
     height: auto;
+    padding-bottom: 5px;
 }
 
 #imgCard1, #imgCard2{
