@@ -216,6 +216,11 @@ h6,
 
 
 /*** Carousel ***/
+
+#subtituloCarousel{
+    font-size: 60px;
+}
+
 .carousel-caption {
     top: 0;
     left: 0;
@@ -494,6 +499,32 @@ h6,
     .footer-about {
         margin-bottom: -75px;
     }
+}
+
+/** About Us **/
+
+#containAboutUs{
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(https://findyourhome.cl/wp-content/uploads/2019/06/content-header-image_1.jpg) center center no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+#tituloAboutUs{
+    color: #0aa7e0;
+    font-size: 25px;
+    text-align: center;
+}
+
+#subtituloAboutUs{
+    color: #DDDDDD;
+    font-size: 35px;
+    text-align: center;
+}
+
+#parrafoAboutUs{
+    color: #b2b4b6;
+    font-size: 18px;
+    text-align: center;
 }
 
 /** Cards img Like Apple **/

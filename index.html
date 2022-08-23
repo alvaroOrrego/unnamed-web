@@ -85,7 +85,8 @@
                             <a href="#!" class="dropdown-item">Blog Detail</a>
                         </div>
                     </div> -->
-                    <div class="nav-item dropdown">
+                    <a href="#!" class="nav-item nav-link">Contacto</a>
+<!--                     <div class="nav-item dropdown">
                         <a href="#!" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Opciones</a>
                         <div class="dropdown-menu m-0">
                             <a href="#!" class="dropdown-item">Opción 1</a>
@@ -94,8 +95,8 @@
                             <a href="#!" class="dropdown-item">Opción 4</a>
                             <a href="#!" class="dropdown-item">Opción 5</a>
                         </div>
-                    </div>
-                    <a href="#!" class="nav-item nav-link">Contacto</a>
+                    </div> -->
+                    <a href="#!" class="nav-item nav-link">Otros</a>
                 </div>
                 <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
             </div>
@@ -104,13 +105,13 @@
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="https://wallpaperaccess.com/full/2000543.jpg" alt="Image">
+                    <img class="w-100" src="https://wallpaperaccess.com/full/2000543.jpg" alt="Image" id="imgCarousel">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Lorem Ipsum</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Is text of the printing and typesetting industry.</h1>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn" id="subtituloCarousel">Is text of the printing and typesetting industry.</h1>
                             <a href="#!" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Opción 1</a>
-                            <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Opción 2</a>
+                            <a href="#!" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Opción 2</a>
                         </div>
                     </div>
                 </div>
@@ -119,9 +120,9 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Lorem Ipsum</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Is text of the printing and typesetting industry.</h1>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn" id="subtituloCarousel">Is text of the printing and typesetting industry.</h1>
                             <a href="#!" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Opción 1</a>
-                            <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Opción 2</a>
+                            <a href="#!" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Opción 2</a>
                         </div>
                     </div>
                 </div>
@@ -158,16 +159,18 @@
     </div>
     <!-- Full Screen Search End -->
 
+    <br>
+
     <!-- Nosotros Start -->
-    <div class="container-fluid py-0 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-fluid py-0 wow fadeInUp" data-wow-delay="0.1s" id="containAboutUs">
         <div class="container-fluid py-5">
             <div class="row g-5">
-                <div class="col-lg-7">
+                <div class="col-lg-0 d-flex flex-column align-items-center justify-content-center">
                     <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold text-primary text-uppercase">Nosotros</h5>
-                        <h1 class="mb-0">Lorem Ipsum is simply dummy text.</h1>
+                        <h5 class="fw-bold text-primary text-uppercase" id="tituloAboutUs">Nosotros</h5>
+                        <h1 class="mb-0" id="subtituloAboutUs">Lorem Ipsum is simply dummy text.</h1>
                         <br>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                    <p class="mb-4" id="parrafoAboutUs">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
 <!--                     <div class="row g-0 mb-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
                             <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Texto 1</h5>
@@ -188,13 +191,13 @@
                         </div>
                     </div> -->
                     </div>
-                    <a href="#!" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Ver más</a>
+                    <a href="#!" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s" id="btnVerMasAboutUs">Ver más</a>
                 </div>
-                <div class="col-lg-5" style="min-height: 500px;">
+<!--                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="https://www.thesciencefaith.com/wp-content/uploads/2019/01/aboutus.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="https://findyourhome.cl/wp-content/uploads/2019/06/content-header-image_1.jpg" id="imgAbout">
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
