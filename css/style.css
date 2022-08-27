@@ -525,9 +525,9 @@ h6,
 
 /** Cards img Like Apple **/
 
-.card:hover{
+/* .card:hover{
     filter: brightness(0.9);
-}
+} */
 
 #card1, #card2, #card3, #card4, #card5{
     border: none;
@@ -546,7 +546,7 @@ h6,
 #imgCard1, #imgCard2{
     background-color: rgba(0,0,0,0.5);
     background-image: url(https://latam.portalerp.com/images/2020/10/09/ibm-divide-lineas-de-negocio-y-crea-newcojpg.jpeg);
-    filter: brightness(0.7);
+    filter: brightness(0.5);
 }
 
 
