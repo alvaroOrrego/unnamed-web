@@ -124,3 +124,27 @@
     
 })(jQuery);
 
+var sections = $("section"),
+navigation_links = $("#navbarCollapse a");	
+
+sections.waypoint( {
+
+   handler: function(direction) {
+
+       var active_section;
+
+        active_section = $('section#' + this.element.id);
+
+        if (direction === "up") active_section = active_section.prev();
+
+        var active_link = $('#navbarCollapse a[href="#' + active_section.attr("id") + '"]');			
+
+     navigation_links.parent().removeClass("nav-item nav-link active");
+        active_link.parent().addClass("nav-item nav-link active");
+
+    }, 
+
+    offset: '25%'
+
+});
+
